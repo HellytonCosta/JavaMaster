@@ -35,5 +35,8 @@ class Main {
         // get the value of name
         name = person1.getMet();
         System.out.println(name);
+
+        input.close();
+
     }
 }
