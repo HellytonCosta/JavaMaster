@@ -10,6 +10,8 @@ class Student {
     // assign value to score
     Student(int score) {
         int value = score;
+
+        System.out.print(value);
     }
 
     void assignGrade(int value) {
@@ -40,5 +42,8 @@ class Main {
 
         // print the grade
         System.out.println(student.grade);
+
+        input.close();
+
     }
 }

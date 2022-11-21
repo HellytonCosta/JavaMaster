@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// import Test.Main;
+
 class Main {
 
     // find the average score and return it
@@ -63,5 +65,7 @@ class Main {
 
         System.out.println("Average Score: " + averageScore);
         System.out.println("Grade: " + grade);
+
+        input.close();
     }
 }

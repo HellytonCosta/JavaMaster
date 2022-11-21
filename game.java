@@ -29,6 +29,8 @@ class Main {
 
         userInput = userInput.toLowerCase();
 
+        input.close();
+
         return userInput;
     }
 
